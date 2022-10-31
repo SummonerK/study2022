@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3BF09528A5002B00B478E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BF09428A5002B00B478E6 /* AppDelegate.swift */; };
+		AA3BF09928A5002B00B478E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BF09828A5002B00B478E6 /* ViewController.swift */; };
+		AA3BF09C28A5002B00B478E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3BF09A28A5002B00B478E6 /* Main.storyboard */; };
+		AA3BF09E28A5002C00B478E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3BF09D28A5002C00B478E6 /* Assets.xcassets */; };
+		AA3BF0A128A5002C00B478E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3BF09F28A5002C00B478E6 /* LaunchScreen.storyboard */; };
+		AA3BF0B228A51FAD00B478E6 /* Pods_NetTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3BF0B128A51FAD00B478E6 /* Pods_NetTool.framework */; };
+		AA5FEF2D29028AA100C08C13 /* ProviderSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF2C29028AA100C08C13 /* ProviderSetting.swift */; };
+		AA8025CD28FE42AE002136D6 /* NetToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8025CC28FE42AE002136D6 /* NetToolTests.swift */; };
+		AA928A932906960D00C9D93E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA928A922906960D00C9D93E /* BaseVC.swift */; };
+		AA928A962906962900C9D93E /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA928A942906962900C9D93E /* HomePageVC.swift */; };
+		AA928A972906962900C9D93E /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA928A952906962900C9D93E /* HomePageVC.xib */; };
+		AA928A9B2909319C00C9D93E /* TestGCDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA928A992909319C00C9D93E /* TestGCDVC.xib */; };
+		AA928A9C2909319C00C9D93E /* TestGCDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA928A9A2909319C00C9D93E /* TestGCDVC.swift */; };
+		AA928A9F290931B500C9D93E /* TCellNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA928A9D290931B500C9D93E /* TCellNormal.swift */; };
+		AA928AA0290931B500C9D93E /* TCellNormal.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA928A9E290931B500C9D93E /* TCellNormal.xib */; };
+		AA928AA42909320C00C9D93E /* OOProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA928AA22909320C00C9D93E /* OOProtocolVC.swift */; };
+		AA928AA52909320C00C9D93E /* OOProtocolVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA928AA32909320C00C9D93E /* OOProtocolVC.xib */; };
+		AACAEDBF28AA5D510078045F /* resMHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDBE28AA5D510078045F /* resMHome.swift */; };
+		AACAEDC228AA6D590078045F /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDC128AA6D590078045F /* ApiConfig.swift */; };
+		AACAEDC428AA78D40078045F /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDC328AA78D40078045F /* HomeAPI.swift */; };
+		AACAEDC628AA79BB0078045F /* HomeApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDC528AA79BB0078045F /* HomeApiConfig.swift */; };
+		AACFAB532900F7390098FA0E /* swiftBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACFAB522900F7390098FA0E /* swiftBaseTest.swift */; };
+		AAD6CD5F28E6D64500C20B58 /* NetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD5E28E6D64500C20B58 /* NetApi.swift */; };
+		AAD6CD6128E6D87400C20B58 /* RootProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6028E6D87400C20B58 /* RootProvider.swift */; };
+		AAD6CD6328E6DB3900C20B58 /* ResponseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6228E6DB3900C20B58 /* ResponseCommon.swift */; };
+		AAD6CD6528E6DB7D00C20B58 /* Response+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6428E6DB7D00C20B58 /* Response+Rx.swift */; };
+		AAD6CD6728E6DBAC00C20B58 /* resWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6628E6DBAC00C20B58 /* resWeatherInfo.swift */; };
+		AAD6CD6928E6E00100C20B58 /* weatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6828E6E00100C20B58 /* weatherService.swift */; };
+		AAD6CD6C28E6E7CB00C20B58 /* weatherGetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6A28E6E7CB00C20B58 /* weatherGetVC.swift */; };
+		AAD6CD6D28E6E7CB00C20B58 /* weatherGetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD6CD6B28E6E7CB00C20B58 /* weatherGetVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8025CE28FE42AE002136D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3BF08928A5002B00B478E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3BF09028A5002B00B478E6;
+			remoteInfo = NetTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F52C71A581BACC8E98B01C8 /* Pods_NetTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BB5D875B52254B5C1B7AA9 /* Pods-NetTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetTool.release.xcconfig"; path = "Target Support Files/Pods-NetTool/Pods-NetTool.release.xcconfig"; sourceTree = "<group>"; };
+		7F571403F22E999CC01DB598 /* Pods-NetTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetTool.debug.xcconfig"; path = "Target Support Files/Pods-NetTool/Pods-NetTool.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3BF09128A5002B00B478E6 /* NetTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3BF09428A5002B00B478E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA3BF09828A5002B00B478E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA3BF09B28A5002B00B478E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3BF09D28A5002C00B478E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3BF0A028A5002C00B478E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3BF0A228A5002C00B478E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3BF0AA28A503AF00B478E6 /* Pods_NetTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NetTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3BF0B128A51FAD00B478E6 /* Pods_NetTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NetTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5FEF2B290244EE00C08C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA5FEF2C29028AA100C08C13 /* ProviderSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderSetting.swift; sourceTree = "<group>"; };
+		AA8025CA28FE42AE002136D6 /* NetToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8025CC28FE42AE002136D6 /* NetToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetToolTests.swift; sourceTree = "<group>"; };
+		AA928A922906960D00C9D93E /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		AA928A942906962900C9D93E /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		AA928A952906962900C9D93E /* HomePageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageVC.xib; sourceTree = "<group>"; };
+		AA928A992909319C00C9D93E /* TestGCDVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestGCDVC.xib; sourceTree = "<group>"; };
+		AA928A9A2909319C00C9D93E /* TestGCDVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestGCDVC.swift; sourceTree = "<group>"; };
+		AA928A9D290931B500C9D93E /* TCellNormal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCellNormal.swift; sourceTree = "<group>"; };
+		AA928A9E290931B500C9D93E /* TCellNormal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCellNormal.xib; sourceTree = "<group>"; };
+		AA928AA22909320C00C9D93E /* OOProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOProtocolVC.swift; sourceTree = "<group>"; };
+		AA928AA32909320C00C9D93E /* OOProtocolVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OOProtocolVC.xib; sourceTree = "<group>"; };
+		AA928AA8290B885900C9D93E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AACAEDBE28AA5D510078045F /* resMHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resMHome.swift; sourceTree = "<group>"; };
+		AACAEDC128AA6D590078045F /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		AACAEDC328AA78D40078045F /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		AACAEDC528AA79BB0078045F /* HomeApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiConfig.swift; sourceTree = "<group>"; };
+		AACFAB522900F7390098FA0E /* swiftBaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftBaseTest.swift; sourceTree = "<group>"; };
+		AAD6CD5E28E6D64500C20B58 /* NetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetApi.swift; sourceTree = "<group>"; };
+		AAD6CD6028E6D87400C20B58 /* RootProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootProvider.swift; sourceTree = "<group>"; };
+		AAD6CD6228E6DB3900C20B58 /* ResponseCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCommon.swift; sourceTree = "<group>"; };
+		AAD6CD6428E6DB7D00C20B58 /* Response+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Rx.swift"; sourceTree = "<group>"; };
+		AAD6CD6628E6DBAC00C20B58 /* resWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resWeatherInfo.swift; sourceTree = "<group>"; };
+		AAD6CD6828E6E00100C20B58 /* weatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherService.swift; sourceTree = "<group>"; };
+		AAD6CD6A28E6E7CB00C20B58 /* weatherGetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherGetVC.swift; sourceTree = "<group>"; };
+		AAD6CD6B28E6E7CB00C20B58 /* weatherGetVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = weatherGetVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3BF08E28A5002B00B478E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3BF0B228A51FAD00B478E6 /* Pods_NetTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8025C728FE42AE002136D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F182C98F2D00BC196CF810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BF0B128A51FAD00B478E6 /* Pods_NetTool.framework */,
+				AA3BF0AA28A503AF00B478E6 /* Pods_NetTool.framework */,
+				2F52C71A581BACC8E98B01C8 /* Pods_NetTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94163780C9DC30C77BE7589E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F571403F22E999CC01DB598 /* Pods-NetTool.debug.xcconfig */,
+				56BB5D875B52254B5C1B7AA9 /* Pods-NetTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA3BF08828A5002B00B478E6 = {
+			isa = PBXGroup;
+			children = (
+				AA3BF09328A5002B00B478E6 /* NetTool */,
+				AA8025CB28FE42AE002136D6 /* NetToolTests */,
+				AA3BF09228A5002B00B478E6 /* Products */,
+				94163780C9DC30C77BE7589E /* Pods */,
+				56F182C98F2D00BC196CF810 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3BF09228A5002B00B478E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BF09128A5002B00B478E6 /* NetTool.app */,
+				AA8025CA28FE42AE002136D6 /* NetToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3BF09328A5002B00B478E6 /* NetTool */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BF0A928A5012B00B478E6 /* MainCode */,
+				AA3BF0A828A5010700B478E6 /* BaseSetting */,
+			);
+			path = NetTool;
+			sourceTree = "<group>";
+		};
+		AA3BF0A828A5010700B478E6 /* BaseSetting */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BF09428A5002B00B478E6 /* AppDelegate.swift */,
+				AA3BF09828A5002B00B478E6 /* ViewController.swift */,
+				AA3BF09A28A5002B00B478E6 /* Main.storyboard */,
+				AA3BF09D28A5002C00B478E6 /* Assets.xcassets */,
+				AA3BF09F28A5002C00B478E6 /* LaunchScreen.storyboard */,
+				AA3BF0A228A5002C00B478E6 /* Info.plist */,
+			);
+			path = BaseSetting;
+			sourceTree = "<group>";
+		};
+		AA3BF0A928A5012B00B478E6 /* MainCode */ = {
+			isa = PBXGroup;
+			children = (
+				AA928A902906960D00C9D93E /* basePage */,
+				AA928A8D290635C200C9D93E /* BaseModule */,
+				AA5FEF332903F0BA00C08C13 /* OtherTest */,
+				AAD6CD5928E6D55300C20B58 /* NetWheel */,
+				AACAEDBB28AA5CE60078045F /* NetWorks */,
+				AAD6CD6A28E6E7CB00C20B58 /* weatherGetVC.swift */,
+				AAD6CD6B28E6E7CB00C20B58 /* weatherGetVC.xib */,
+			);
+			path = MainCode;
+			sourceTree = "<group>";
+		};
+		AA5FEF332903F0BA00C08C13 /* OtherTest */ = {
+			isa = PBXGroup;
+			children = (
+				AA928AA1290931E500C9D93E /* 面向协议编程 */,
+				AA928A982909319C00C9D93E /* GCDPage */,
+			);
+			path = OtherTest;
+			sourceTree = "<group>";
+		};
+		AA8025CB28FE42AE002136D6 /* NetToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5FEF2B290244EE00C08C13 /* Info.plist */,
+				AA8025CC28FE42AE002136D6 /* NetToolTests.swift */,
+				AACFAB522900F7390098FA0E /* swiftBaseTest.swift */,
+			);
+			path = NetToolTests;
+			sourceTree = "<group>";
+		};
+		AA928A8D290635C200C9D93E /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				AA928A9D290931B500C9D93E /* TCellNormal.swift */,
+				AA928A9E290931B500C9D93E /* TCellNormal.xib */,
+				AA928A922906960D00C9D93E /* BaseVC.swift */,
+				AA928A912906960D00C9D93E /* baseSetting */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		AA928A902906960D00C9D93E /* basePage */ = {
+			isa = PBXGroup;
+			children = (
+				AA928AA8290B885900C9D93E /* MyPlayground.playground */,
+				AA928A942906962900C9D93E /* HomePageVC.swift */,
+				AA928A952906962900C9D93E /* HomePageVC.xib */,
+			);
+			path = basePage;
+			sourceTree = "<group>";
+		};
+		AA928A912906960D00C9D93E /* baseSetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = baseSetting;
+			sourceTree = "<group>";
+		};
+		AA928A982909319C00C9D93E /* GCDPage */ = {
+			isa = PBXGroup;
+			children = (
+				AA928A9A2909319C00C9D93E /* TestGCDVC.swift */,
+				AA928A992909319C00C9D93E /* TestGCDVC.xib */,
+			);
+			path = GCDPage;
+			sourceTree = "<group>";
+		};
+		AA928AA1290931E500C9D93E /* 面向协议编程 */ = {
+			isa = PBXGroup;
+			children = (
+				AA928AA22909320C00C9D93E /* OOProtocolVC.swift */,
+				AA928AA32909320C00C9D93E /* OOProtocolVC.xib */,
+			);
+			path = "面向协议编程";
+			sourceTree = "<group>";
+		};
+		AACAEDBB28AA5CE60078045F /* NetWorks */ = {
+			isa = PBXGroup;
+			children = (
+				AACAEDC028AA6D370078045F /* NetAPIs */,
+				AACAEDBC28AA5CE60078045F /* resultModels */,
+				AACAEDBD28AA5CE60078045F /* requestModels */,
+			);
+			path = NetWorks;
+			sourceTree = "<group>";
+		};
+		AACAEDBC28AA5CE60078045F /* resultModels */ = {
+			isa = PBXGroup;
+			children = (
+				AACAEDBE28AA5D510078045F /* resMHome.swift */,
+			);
+			path = resultModels;
+			sourceTree = "<group>";
+		};
+		AACAEDBD28AA5CE60078045F /* requestModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = requestModels;
+			sourceTree = "<group>";
+		};
+		AACAEDC028AA6D370078045F /* NetAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				AACAEDC128AA6D590078045F /* ApiConfig.swift */,
+				AACAEDC328AA78D40078045F /* HomeAPI.swift */,
+				AACAEDC528AA79BB0078045F /* HomeApiConfig.swift */,
+			);
+			path = NetAPIs;
+			sourceTree = "<group>";
+		};
+		AAD6CD5928E6D55300C20B58 /* NetWheel */ = {
+			isa = PBXGroup;
+			children = (
+				AAD6CD5C28E6D62900C20B58 /* ApiModule */,
+				AAD6CD5B28E6D62900C20B58 /* NetService */,
+				AAD6CD5D28E6D62900C20B58 /* ModelModule */,
+				AAD6CD5A28E6D62900C20B58 /* Provider */,
+			);
+			path = NetWheel;
+			sourceTree = "<group>";
+		};
+		AAD6CD5A28E6D62900C20B58 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				AAD6CD6428E6DB7D00C20B58 /* Response+Rx.swift */,
+				AAD6CD6028E6D87400C20B58 /* RootProvider.swift */,
+				AA5FEF2C29028AA100C08C13 /* ProviderSetting.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		AAD6CD5B28E6D62900C20B58 /* NetService */ = {
+			isa = PBXGroup;
+			children = (
+				AAD6CD6828E6E00100C20B58 /* weatherService.swift */,
+			);
+			path = NetService;
+			sourceTree = "<group>";
+		};
+		AAD6CD5C28E6D62900C20B58 /* ApiModule */ = {
+			isa = PBXGroup;
+			children = (
+				AAD6CD5E28E6D64500C20B58 /* NetApi.swift */,
+			);
+			path = ApiModule;
+			sourceTree = "<group>";
+		};
+		AAD6CD5D28E6D62900C20B58 /* ModelModule */ = {
+			isa = PBXGroup;
+			children = (
+				AAD6CD6228E6DB3900C20B58 /* ResponseCommon.swift */,
+				AAD6CD6628E6DBAC00C20B58 /* resWeatherInfo.swift */,
+			);
+			path = ModelModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3BF09028A5002B00B478E6 /* NetTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3BF0A528A5002C00B478E6 /* Build configuration list for PBXNativeTarget "NetTool" */;
+			buildPhases = (
+				683679CC1497BF33E9A4AF3C /* [CP] Check Pods Manifest.lock */,
+				AA3BF08D28A5002B00B478E6 /* Sources */,
+				AA3BF08E28A5002B00B478E6 /* Frameworks */,
+				AA3BF08F28A5002B00B478E6 /* Resources */,
+				C0582283B7CBA50DEEEC2082 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetTool;
+			productName = NetTool;
+			productReference = AA3BF09128A5002B00B478E6 /* NetTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8025C928FE42AE002136D6 /* NetToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8025D228FE42AE002136D6 /* Build configuration list for PBXNativeTarget "NetToolTests" */;
+			buildPhases = (
+				AA8025C628FE42AE002136D6 /* Sources */,
+				AA8025C728FE42AE002136D6 /* Frameworks */,
+				AA8025C828FE42AE002136D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8025CF28FE42AE002136D6 /* PBXTargetDependency */,
+			);
+			name = NetToolTests;
+			productName = NetToolTests;
+			productReference = AA8025CA28FE42AE002136D6 /* NetToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3BF08928A5002B00B478E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AA3BF09028A5002B00B478E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA8025C928FE42AE002136D6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AA3BF09028A5002B00B478E6;
+					};
+				};
+			};
+			buildConfigurationList = AA3BF08C28A5002B00B478E6 /* Build configuration list for PBXProject "NetTool" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3BF08828A5002B00B478E6;
+			productRefGroup = AA3BF09228A5002B00B478E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3BF09028A5002B00B478E6 /* NetTool */,
+				AA8025C928FE42AE002136D6 /* NetToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3BF08F28A5002B00B478E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3BF0A128A5002C00B478E6 /* LaunchScreen.storyboard in Resources */,
+				AA3BF09E28A5002C00B478E6 /* Assets.xcassets in Resources */,
+				AA928AA52909320C00C9D93E /* OOProtocolVC.xib in Resources */,
+				AAD6CD6D28E6E7CB00C20B58 /* weatherGetVC.xib in Resources */,
+				AA3BF09C28A5002B00B478E6 /* Main.storyboard in Resources */,
+				AA928A972906962900C9D93E /* HomePageVC.xib in Resources */,
+				AA928A9B2909319C00C9D93E /* TestGCDVC.xib in Resources */,
+				AA928AA0290931B500C9D93E /* TCellNormal.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8025C828FE42AE002136D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		683679CC1497BF33E9A4AF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0582283B7CBA50DEEEC2082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetTool/Pods-NetTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetTool/Pods-NetTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetTool/Pods-NetTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3BF08D28A5002B00B478E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA928A9C2909319C00C9D93E /* TestGCDVC.swift in Sources */,
+				AAD6CD6928E6E00100C20B58 /* weatherService.swift in Sources */,
+				AA928A932906960D00C9D93E /* BaseVC.swift in Sources */,
+				AA3BF09928A5002B00B478E6 /* ViewController.swift in Sources */,
+				AA3BF09528A5002B00B478E6 /* AppDelegate.swift in Sources */,
+				AAD6CD6328E6DB3900C20B58 /* ResponseCommon.swift in Sources */,
+				AACAEDC428AA78D40078045F /* HomeAPI.swift in Sources */,
+				AAD6CD6C28E6E7CB00C20B58 /* weatherGetVC.swift in Sources */,
+				AAD6CD6528E6DB7D00C20B58 /* Response+Rx.swift in Sources */,
+				AACAEDC228AA6D590078045F /* ApiConfig.swift in Sources */,
+				AAD6CD6128E6D87400C20B58 /* RootProvider.swift in Sources */,
+				AA928AA42909320C00C9D93E /* OOProtocolVC.swift in Sources */,
+				AA928A9F290931B500C9D93E /* TCellNormal.swift in Sources */,
+				AAD6CD5F28E6D64500C20B58 /* NetApi.swift in Sources */,
+				AACAEDBF28AA5D510078045F /* resMHome.swift in Sources */,
+				AAD6CD6728E6DBAC00C20B58 /* resWeatherInfo.swift in Sources */,
+				AA928A962906962900C9D93E /* HomePageVC.swift in Sources */,
+				AACAEDC628AA79BB0078045F /* HomeApiConfig.swift in Sources */,
+				AA5FEF2D29028AA100C08C13 /* ProviderSetting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8025C628FE42AE002136D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACFAB532900F7390098FA0E /* swiftBaseTest.swift in Sources */,
+				AA8025CD28FE42AE002136D6 /* NetToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8025CF28FE42AE002136D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3BF09028A5002B00B478E6 /* NetTool */;
+			targetProxy = AA8025CE28FE42AE002136D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA3BF09A28A5002B00B478E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3BF09B28A5002B00B478E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3BF09F28A5002C00B478E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3BF0A028A5002C00B478E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3BF0A328A5002C00B478E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA3BF0A428A5002C00B478E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3BF0A628A5002C00B478E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F571403F22E999CC01DB598 /* Pods-NetTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJ26259W9D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Moya\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ObjectMapper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Result\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetTool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoke.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA3BF0A728A5002C00B478E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BB5D875B52254B5C1B7AA9 /* Pods-NetTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJ26259W9D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Moya\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ObjectMapper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Result\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetTool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoke.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA8025D028FE42AE002136D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJ26259W9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetToolTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoke.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetTool";
+			};
+			name = Debug;
+		};
+		AA8025D128FE42AE002136D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJ26259W9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetToolTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoke.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3BF08C28A5002B00B478E6 /* Build configuration list for PBXProject "NetTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3BF0A328A5002C00B478E6 /* Debug */,
+				AA3BF0A428A5002C00B478E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3BF0A528A5002C00B478E6 /* Build configuration list for PBXNativeTarget "NetTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3BF0A628A5002C00B478E6 /* Debug */,
+				AA3BF0A728A5002C00B478E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8025D228FE42AE002136D6 /* Build configuration list for PBXNativeTarget "NetToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8025D028FE42AE002136D6 /* Debug */,
+				AA8025D128FE42AE002136D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3BF08928A5002B00B478E6 /* Project object */;
+}

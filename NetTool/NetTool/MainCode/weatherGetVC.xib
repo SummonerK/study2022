@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="weatherGetVC" customModule="NetTool" customModuleProvider="target">
+            <connections>
+                <outlet property="bton_submit" destination="J56-gK-Mz2" id="G3G-Ey-NbE"/>
+                <outlet property="tv_result" destination="oIP-UN-UXc" id="FNo-TN-cBy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oIP-UN-UXc">
+                    <rect key="frame" x="20" y="106" width="350" height="300"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="nZt-ay-RIM"/>
+                    </constraints>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J56-gK-Mz2">
+                    <rect key="frame" x="40" y="711" width="310" height="50"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.7843137255" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="P7E-y7-j2P"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="获取天气数据"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="oIP-UN-UXc" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" constant="-40" id="08b-Db-N5L"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="J56-gK-Mz2" secondAttribute="bottom" constant="49" id="UDQ-nY-MaC"/>
+                <constraint firstItem="J56-gK-Mz2" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" constant="-80" id="V8a-4S-3mT"/>
+                <constraint firstItem="oIP-UN-UXc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="59" id="g06-36-d6a"/>
+                <constraint firstItem="oIP-UN-UXc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="leq-hg-8is"/>
+                <constraint firstItem="J56-gK-Mz2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="suc-he-oeJ"/>
+            </constraints>
+            <point key="canvasLocation" x="-43" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
