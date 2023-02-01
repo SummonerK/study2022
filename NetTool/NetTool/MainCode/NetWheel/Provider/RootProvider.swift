@@ -8,7 +8,7 @@
 import Moya
 import ObjectMapper
 import RxSwift
-import Result
+//import Result
 
 let shouldShowLog = true  //是否打印日志
 
@@ -112,8 +112,8 @@ private let requestClosure = { (endpoint: Endpoint, closure: @escaping MoyaProvi
 
 // MARK: - 调试plugin
 
-//private let networkLoggerPlugin = NetworkLoggerPlugin(configuration:NetworkLoggerPlugin.Configuration(output:reversedPrint, logOptions:.verbose))
-private let networkLoggerPlugin = NetworkLoggerPlugin(verbose:true)
+private let networkLoggerPlugin = NetworkLoggerPlugin(configuration:NetworkLoggerPlugin.Configuration(output:reversedPrint, logOptions:.verbose))
+//private let networkLoggerPlugin = NetworkLoggerPlugin(verbose:true)
 private let netLogger = IBNetWorkPlugin()
 
 

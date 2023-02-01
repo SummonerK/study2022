@@ -7,7 +7,7 @@
 
 import Foundation
 import Moya
-import Result
+//import Result
 
 public final class IBNetWorkPlugin: PluginType{
     public func willSend(_ request: RequestType, target: TargetType) {

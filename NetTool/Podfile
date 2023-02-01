@@ -9,6 +9,8 @@ target 'NetTool' do
   
   pod 'SnapKit'
   pod 'JKSwiftExtension'
+  #关于设备
+  pod 'DeviceKit'
 
   pod 'RxSwift'
   pod 'RxCocoa'
@@ -20,8 +22,25 @@ target 'NetTool' do
   #序列化
   pod 'ObjectMapper'
   pod 'HandyJSON'
-
-
+  #多控制器tableView
+  pod 'LTScrollView'
+  pod 'JFPopup'
+  #图像处理
+  pod 'GPUImage'
+  #动画相关
+  pod 'lottie-ios'
+  #缓存数据
+  pod 'YYCache'
+  #Svg
+#  pod 'SVGKit' //无用，莫名其妙报错
+  pod 'SwiftSVG'
+  pod "MBProgressHUD"
+  
+  pod "ESTabBarController-swift"
+  
+  pod 'iosMath'
+  pod 'YYText'
+  pod 'RichTextView'
 
 
 

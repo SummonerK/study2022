@@ -22,11 +22,8 @@ extension NetApi:TargetType{
         }
     }
 
-    public var method: Method {
-        switch self {
-        case .getWeatherInfo:
-            return .get
-        }
+    public var method: Moya.Method {
+        return .post
     }
 
     public var sampleData: Data {

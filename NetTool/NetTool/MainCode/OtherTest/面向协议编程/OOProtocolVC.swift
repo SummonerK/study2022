@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JKSwiftExtension
 
 class OOProtocolVC: UIViewController {
     
@@ -21,7 +22,8 @@ class OOProtocolVC: UIViewController {
         testOOProtocal(value: "5")
         
         bton_next.jk.addActionClosure { atap, aview, aint in
-            self.todayPop()
+//            self.todayPop()
+            self.gotoOtherUrl(upenUrl: "snssdk1128://")
         }
 
         // Do any additional setup after loading the view.
@@ -35,11 +37,34 @@ class OOProtocolVC: UIViewController {
         print("-------------------end-----------------------\n")
     }
     
+    // MARK: - 日期
     func todayPop() -> Void {
         let today = Date().jk.dateFromGMT()
         let str_today = today.jk.toformatterTimeString(formatter:"yyyy-MM-dd")
         print(today)
         print(str_today)
+    }
+    
+    // MARK: - 打开Url
+    // 如果是跳转其他app 需要配置白名单【LSApplicationQueriesSchemes｜Queried URL Schemes】
+    func gotoOtherUrl(upenUrl url:String = "") -> Void {
+        guard let toUrl = URL(string: url) else{
+            print("url 不合法")
+            return
+        }
+        let canOpenUrl = UIApplication.shared.canOpenURL(toUrl)
+        if canOpenUrl{
+            JKGlobalTools.openUrl(url: toUrl) { success in
+                if success{
+                    print("打开成功")
+                }else{
+                    print("打开失败")
+                }
+            }
+        }else{
+            print("无法打开该链接，请检查是否安装app")
+        }
+        
     }
 
 }

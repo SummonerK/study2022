@@ -105,6 +105,10 @@ class TestGCDVC: BaseVC {
                        content: "func_performQueuesGroupDef")
         listDataInsert(keyWork: "信号量和同步锁🔒",
                        content: "func_performQueuesSemaphore")
+        listDataInsert(keyWork: "信号量和同步锁🔒-group",
+                       content: "func_performQueuesSemaphoreControl")
+        
+        
         listDataInsert(keyWork: "信号量和同步锁🔒:c wait ab",
                        content: "func_performQueuesCWaitab")
         listDataInsert(keyWork: "信号量和同步锁🔒:c wait ab 1",
@@ -292,6 +296,37 @@ extension TestGCDVC{
         print("异步标记🚩")
     }
     
+    @objc func func_performQueuesSemaphoreControl(){
+        let group = DispatchGroup()
+        let queue = getConcurrent(label: "queue_performQueuesUseASynchronization_concurrent_00")
+        let semaphoreLock = DispatchSemaphore(value: 4)
+        
+        for i in 1...10{
+            let randomSecond = arc4random()%4 + 1
+            semaphoreLock.wait() ///上锁🔒
+            queue.async(group: group) {
+                var log = String()
+                log += String(format: "%@", getCurrentThread())
+                log += "\ntask:\(i)添加完毕---定义时长【\(randomSecond)s】"
+                print(log)
+                currentThreadSleep(seconds: Double(randomSecond))
+                print("\(getCurrentThread())--\ntask:\(i)执行完成✅--耗时：【\(randomSecond)s】")
+                semaphoreLock.signal() ///开锁 🔓
+            }
+        }
+        print("阻塞了")
+        group.notify(queue: queue){
+            //group执行完成了
+            print("执行C任务")
+            queue.async{
+                print("执行c任务")
+                currentThreadSleep(seconds: 2)
+                print("【c任务】 执行完成✅")
+            }
+        }
+        
+    }
+    
     // MARK: - 【a、b】-【c】
     @objc func func_performQueuesCWaitab(){
 //        1、用信号量-ab方法中信号量定义0上锁状态和开锁释放，group(ab),notify(c)
@@ -312,6 +347,7 @@ extension TestGCDVC{
             semaphore.signal()
             print("【b任务】 执行完成✅")
         }
+        print("阻塞了")
         group.notify(queue: queue){
             //group执行完成了
 //            print("执行C任务")
@@ -1052,7 +1088,7 @@ func getSerial(label:String) -> DispatchQueue {
  
  - parameter label: 并行队列标签
  
- - return:串行队列
+ - return:并行队列
  */
 @discardableResult
 func getConcurrent(label:String) -> DispatchQueue {

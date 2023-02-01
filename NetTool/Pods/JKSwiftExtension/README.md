@@ -46,9 +46,32 @@ end
 ## 讨论
 - 微信号: wangc2318151015
 - 邮箱: jkironman@163.com
-<img src="https://user-images.githubusercontent.com/19670000/174286196-a20713b4-d404-4f1e-8128-989593552c62.jpeg" alt="微信交流群" width="220">
+<img src="https://user-images.githubusercontent.com/19670000/200982257-a0a8644e-3162-4ee6-9ec8-83f6a095f9b4.jpeg" alt="微信交流群" width="220">
 
 ## 版本说明
+  - 2.2.2、版本
+       - UIView+Extension.swift的圆角和阴影共存的bugfix
+       - 其他扩展的bugfix
+  - 2.2.1、版本
+      - (1)、String+Extension.swift 扩展
+         - 1、增加手机隐藏位数，可设置前后的隐藏位数，方法：hidePhone  
+         - 2、增加邮箱隐藏位数，可设置前后的隐藏位数，方法：hideEmail  
+         - 3、修复插入任意位置插入字符串的bug，方法：insertString
+     - (2)、UIDevice+Extension.swift 
+         - 1、修复有关获取sim卡信息强制解包崩溃的问题 
+         - 2、增加设备的震动相关方法，SystemSoundID、UINotificationFeedbackGenerator、UIImpactFeedbackGenerator
+     - (3)、UITextView+Extension.swift
+         - 1、修复方法inputRestrictions中当有字数限制，在复制内容的时候，不可截取的问题
+     - (4)、UITextField+Extension.swift
+         - 1、修复方法inputRestrictions中当有字数限制，在复制内容的时候，不可截取的问题
+   - 2.1.12、版本
+      - (1)、UIVisualEffectView+Extension.swift 新增 import UIKit
+      - (2)、新增 UITapGestureRecognizer+Extension.swift 扩展
+   - 2.1.10、版本
+      - (1)、String+Extension.swift 新增 匹配两个字符之间的内容 matchesMiddleContentOfCharacters
+      - (2)、CGFloat+Extension.swift、Float+Extension.swift 新增四舍五入方法：rounding(scale: Int16 = 1)
+      - (3)、NSDecimalNumberHandler+Extension.swift 新增四舍五入方法：rounding(value: Any, scale: Int16 = 0)
+      - (4)、JKEmptyView.swift 空白视图，使用简单，方便去显示空白或者无网络的界面，有待完善
    - 2.1.9、版本：
       - (1)、UIButton扩展里面的扩大点击事件，做了修复，之前把self.base写成了self，导致扩大范围失效，在2.1.9分支做了修复
       - (2)、新增字符串有关子串在父字符串range的范围，返回一个子串的范围数组

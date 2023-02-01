@@ -1,57 +1,120 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.6.4)
+  - DeviceKit (5.0.0)
+  - Down (0.11.0)
+  - ESTabBarController-swift (2.8.0)
+  - GPUImage (0.1.7)
   - HandyJSON (5.0.2)
-  - JKSwiftExtension (2.1.10)
-  - Moya/Core (13.0.1):
-    - Alamofire (~> 4.1)
-    - Result (~> 4.1)
-  - Moya/RxSwift (13.0.1):
+  - iosMath (0.9.4)
+  - JFPopup (1.5.1):
+    - JRBaseKit (~> 1.0.0)
+  - JKSwiftExtension (2.2.3)
+  - JRBaseKit (1.0.0)
+  - lottie-ios (3.5.0)
+  - LTScrollView (0.4.4):
+    - LTScrollView/LTFollowMove (= 0.4.4)
+    - LTScrollView/LTLoopsPlay (= 0.4.4)
+  - LTScrollView/LTFollowMove (0.4.4)
+  - LTScrollView/LTLoopsPlay (0.4.4)
+  - MBProgressHUD (1.2.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
     - Moya/Core
-    - RxSwift (~> 4.0)
+    - RxSwift (~> 6.0)
   - ObjectMapper (4.2.0)
-  - Result (4.1.0)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.5.0)
+  - RichTextView (3.2.1):
+    - Down
+    - iosMath
+    - SnapKit
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
   - SnapKit (5.6.0)
+  - SwiftSVG (2.3.2)
   - SwiftyJSON (5.0.1)
+  - YYCache (1.0.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - Alamofire
+  - DeviceKit
+  - ESTabBarController-swift
+  - GPUImage
   - HandyJSON
+  - iosMath
+  - JFPopup
   - JKSwiftExtension
+  - lottie-ios
+  - LTScrollView
+  - MBProgressHUD
   - Moya/RxSwift
   - ObjectMapper
+  - RichTextView
   - RxCocoa
   - RxSwift
   - SnapKit
+  - SwiftSVG
   - SwiftyJSON
+  - YYCache
+  - YYText
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DeviceKit
+    - Down
+    - ESTabBarController-swift
+    - GPUImage
     - HandyJSON
+    - iosMath
+    - JFPopup
     - JKSwiftExtension
+    - JRBaseKit
+    - lottie-ios
+    - LTScrollView
+    - MBProgressHUD
     - Moya
     - ObjectMapper
-    - Result
+    - RichTextView
     - RxCocoa
+    - RxRelay
     - RxSwift
     - SnapKit
+    - SwiftSVG
     - SwiftyJSON
+    - YYCache
+    - YYText
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
+  Down: b6ba1bc985c9d2f4e15e3b293d2207766fa12612
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  JKSwiftExtension: f7c0a6f39e4e2033e08d20a09ec4a3ee34a68811
-  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  JFPopup: 94aebd8cd91103b1ba67ae9da87e19cbc010d76f
+  JKSwiftExtension: c8bcd34bd01ac371c84629249ed7528d82162838
+  JRBaseKit: ed75cfce9e340a3316bee0eaac0fa1c400714287
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  LTScrollView: 6c49aa1353570f782f60b4fb4cfa1c9c6034c72f
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
-  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RichTextView: 96906735e6f7e81c08403c7711ad908b3cb6ecd1
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftSVG: ca7f64e403b8ea7ea8eba8c823b83ba4a059834c
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 79c130872e39c9329404ea890aed47c2d333663e
+PODFILE CHECKSUM: a26530c094e16b83ac11eb4402f590688fd9df64
 
 COCOAPODS: 1.11.3

@@ -83,6 +83,10 @@ final class NetToolTests: XCTestCase {
             return ptr
         }
         print(p1)
+        
+        print(p1.pointee)
+        printLine()
+        print(p1.pointee + 1)
     }
     
     // MARK: - 通过指针取值
@@ -175,7 +179,7 @@ final class NetToolTests: XCTestCase {
     
     // MARK: - 高级函数
     func testHandleFunc() -> Void {
-        let arrayValues = ["春有百花","秋有月","夏有凉风","冬有雪"]
+        var arrayValues = ["春有百花","秋有月","夏有凉风","冬有雪"]
         let arrayMap = arrayValues.map { (item:String) -> String in
             return String(format: "$%@$", item)
         }
@@ -195,6 +199,12 @@ final class NetToolTests: XCTestCase {
             return item.count<=3
         }
         print(arrayFilter)
+        printLine()
+        
+        arrayValues = arrayValues.filter { item in
+            return item.count==3
+        }
+        print(arrayValues)
         printLine()
         
         /// 数组-合并函数
