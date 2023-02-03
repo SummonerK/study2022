@@ -39,6 +39,10 @@
 		AA164D62298A66C000FF0338 /* BasicLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA164D60298A66C000FF0338 /* BasicLayoutVC.swift */; };
 		AA164D63298A66C000FF0338 /* BasicLayoutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA164D61298A66C000FF0338 /* BasicLayoutVC.xib */; };
 		AA164D67298A736400FF0338 /* exampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA164D66298A736400FF0338 /* exampleVC.swift */; };
+		AA164D6B298B499400FF0338 /* MutatingShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA164D69298B499400FF0338 /* MutatingShowVC.swift */; };
+		AA164D6C298B499400FF0338 /* MutatingShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA164D6A298B499400FF0338 /* MutatingShowVC.xib */; };
+		AA164D71298B571300FF0338 /* focusAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA164D6F298B571300FF0338 /* focusAnimationVC.swift */; };
+		AA164D72298B571300FF0338 /* focusAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA164D70298B571300FF0338 /* focusAnimationVC.xib */; };
 		AA3BF09528A5002B00B478E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BF09428A5002B00B478E6 /* AppDelegate.swift */; };
 		AA3BF09928A5002B00B478E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BF09828A5002B00B478E6 /* ViewController.swift */; };
 		AA3BF09C28A5002B00B478E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3BF09A28A5002B00B478E6 /* Main.storyboard */; };
@@ -193,6 +197,14 @@
 		AADF7FA1294D9EF800886828 /* LXBlueToothExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADF7FA0294D9EF800886828 /* LXBlueToothExtend.swift */; };
 		AADF7FA5294DA20F00886828 /* TCellBlueToothItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADF7FA3294DA20F00886828 /* TCellBlueToothItem.swift */; };
 		AADF7FA6294DA20F00886828 /* TCellBlueToothItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADF7FA4294DA20F00886828 /* TCellBlueToothItem.xib */; };
+		AAF8A0E6298B917700539DE8 /* TwoNumSumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A0E4298B917700539DE8 /* TwoNumSumVC.swift */; };
+		AAF8A0E7298B917700539DE8 /* TwoNumSumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A0E5298B917700539DE8 /* TwoNumSumVC.xib */; };
+		AAF8A0EA298B95CD00539DE8 /* halfFindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A0E8298B95CD00539DE8 /* halfFindVC.swift */; };
+		AAF8A0EB298B95CD00539DE8 /* halfFindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A0E9298B95CD00539DE8 /* halfFindVC.xib */; };
+		AAF8A0EF298BA6B000539DE8 /* showBindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A0ED298BA6B000539DE8 /* showBindVC.swift */; };
+		AAF8A0F0298BA6B000539DE8 /* showBindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A0EE298BA6B000539DE8 /* showBindVC.xib */; };
+		AAF8A0F4298C9FD100539DE8 /* showRxSubjectsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A0F2298C9FD100539DE8 /* showRxSubjectsVC.swift */; };
+		AAF8A0F5298C9FD100539DE8 /* showRxSubjectsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A0F3298C9FD100539DE8 /* showRxSubjectsVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,6 +267,10 @@
 		AA164D60298A66C000FF0338 /* BasicLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayoutVC.swift; sourceTree = "<group>"; };
 		AA164D61298A66C000FF0338 /* BasicLayoutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicLayoutVC.xib; sourceTree = "<group>"; };
 		AA164D66298A736400FF0338 /* exampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleVC.swift; sourceTree = "<group>"; };
+		AA164D69298B499400FF0338 /* MutatingShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingShowVC.swift; sourceTree = "<group>"; };
+		AA164D6A298B499400FF0338 /* MutatingShowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MutatingShowVC.xib; sourceTree = "<group>"; };
+		AA164D6F298B571300FF0338 /* focusAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusAnimationVC.swift; sourceTree = "<group>"; };
+		AA164D70298B571300FF0338 /* focusAnimationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = focusAnimationVC.xib; sourceTree = "<group>"; };
 		AA3BF09128A5002B00B478E6 /* NetTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3BF09428A5002B00B478E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA3BF09828A5002B00B478E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -418,6 +434,14 @@
 		AADF7FA0294D9EF800886828 /* LXBlueToothExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXBlueToothExtend.swift; sourceTree = "<group>"; };
 		AADF7FA3294DA20F00886828 /* TCellBlueToothItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCellBlueToothItem.swift; sourceTree = "<group>"; };
 		AADF7FA4294DA20F00886828 /* TCellBlueToothItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCellBlueToothItem.xib; sourceTree = "<group>"; };
+		AAF8A0E4298B917700539DE8 /* TwoNumSumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumSumVC.swift; sourceTree = "<group>"; };
+		AAF8A0E5298B917700539DE8 /* TwoNumSumVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoNumSumVC.xib; sourceTree = "<group>"; };
+		AAF8A0E8298B95CD00539DE8 /* halfFindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = halfFindVC.swift; sourceTree = "<group>"; };
+		AAF8A0E9298B95CD00539DE8 /* halfFindVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = halfFindVC.xib; sourceTree = "<group>"; };
+		AAF8A0ED298BA6B000539DE8 /* showBindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showBindVC.swift; sourceTree = "<group>"; };
+		AAF8A0EE298BA6B000539DE8 /* showBindVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = showBindVC.xib; sourceTree = "<group>"; };
+		AAF8A0F2298C9FD100539DE8 /* showRxSubjectsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showRxSubjectsVC.swift; sourceTree = "<group>"; };
+		AAF8A0F3298C9FD100539DE8 /* showRxSubjectsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = showRxSubjectsVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -527,6 +551,8 @@
 		AA164D32298A015700FF0338 /* RxSwift-响应式编程 */ = {
 			isa = PBXGroup;
 			children = (
+				AAF8A0F1298C9FA100539DE8 /* RxSwift-5-Subjects */,
+				AAF8A0EC298BA67000539DE8 /* RxSwift-4-绑定 */,
 				AA164D46298A4F9200FF0338 /* RxSwift-3-观察者 */,
 				AA164D41298A3D2700FF0338 /* RxSwift-2-订阅 */,
 				AA164D37298A03C200FF0338 /* RxSwift-1-响应式编程 */,
@@ -585,6 +611,8 @@
 		AA164D50298A64EC00FF0338 /* 算法和基础 */ = {
 			isa = PBXGroup;
 			children = (
+				AAF8A0E3298B90EF00539DE8 /* 二分法查找 */,
+				AAF8A0E2298B90CC00539DE8 /* 两数之和 */,
 				AA164D52298A659100FF0338 /* basicAndAlgorithmVC.swift */,
 				AA164D53298A659100FF0338 /* basicAndAlgorithmVC.xib */,
 			);
@@ -594,6 +622,7 @@
 		AA164D51298A651300FF0338 /* 基础API */ = {
 			isa = PBXGroup;
 			children = (
+				AA164D68298B495200FF0338 /* 关键字-mutating */,
 				AA164D202988ED4A00FF0338 /* 关键字-where */,
 				AA164D4B298A5B5900FF0338 /* 计时器-Timer */,
 				AA164D56298A65F300FF0338 /* BasicShowVC.swift */,
@@ -639,6 +668,24 @@
 				AA928A9E290931B500C9D93E /* TCellNormal.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AA164D68298B495200FF0338 /* 关键字-mutating */ = {
+			isa = PBXGroup;
+			children = (
+				AA164D69298B499400FF0338 /* MutatingShowVC.swift */,
+				AA164D6A298B499400FF0338 /* MutatingShowVC.xib */,
+			);
+			path = "关键字-mutating";
+			sourceTree = "<group>";
+		};
+		AA164D6D298B55E400FF0338 /* 聚焦效果 */ = {
+			isa = PBXGroup;
+			children = (
+				AA164D6F298B571300FF0338 /* focusAnimationVC.swift */,
+				AA164D70298B571300FF0338 /* focusAnimationVC.xib */,
+			);
+			path = "聚焦效果";
 			sourceTree = "<group>";
 		};
 		AA3BF08828A5002B00B478E6 = {
@@ -789,6 +836,7 @@
 		AA837028298664BA0098041C /* 一些常用效果 */ = {
 			isa = PBXGroup;
 			children = (
+				AA164D6D298B55E400FF0338 /* 聚焦效果 */,
 				AA164D2A2989164100FF0338 /* 波浪纹 */,
 				AA164D1829876C4600FF0338 /* 水波雷达纹 */,
 				AA164D1029875AF600FF0338 /* 渐变色进度条 */,
@@ -1317,6 +1365,42 @@
 			path = views;
 			sourceTree = "<group>";
 		};
+		AAF8A0E2298B90CC00539DE8 /* 两数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF8A0E4298B917700539DE8 /* TwoNumSumVC.swift */,
+				AAF8A0E5298B917700539DE8 /* TwoNumSumVC.xib */,
+			);
+			path = "两数之和";
+			sourceTree = "<group>";
+		};
+		AAF8A0E3298B90EF00539DE8 /* 二分法查找 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF8A0E8298B95CD00539DE8 /* halfFindVC.swift */,
+				AAF8A0E9298B95CD00539DE8 /* halfFindVC.xib */,
+			);
+			path = "二分法查找";
+			sourceTree = "<group>";
+		};
+		AAF8A0EC298BA67000539DE8 /* RxSwift-4-绑定 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF8A0ED298BA6B000539DE8 /* showBindVC.swift */,
+				AAF8A0EE298BA6B000539DE8 /* showBindVC.xib */,
+			);
+			path = "RxSwift-4-绑定";
+			sourceTree = "<group>";
+		};
+		AAF8A0F1298C9FA100539DE8 /* RxSwift-5-Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				AAF8A0F2298C9FD100539DE8 /* showRxSubjectsVC.swift */,
+				AAF8A0F3298C9FD100539DE8 /* showRxSubjectsVC.xib */,
+			);
+			path = "RxSwift-5-Subjects";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1407,6 +1491,7 @@
 				AABA2E0E291267EF00B84F85 /* treeNote1.png in Resources */,
 				AA83703C29866AB30098041C /* DataTransVC.xib in Resources */,
 				AAAC7D26297636CD003949D1 /* YYCacheUseVC.xib in Resources */,
+				AA164D72298B571300FF0338 /* focusAnimationVC.xib in Resources */,
 				AA164D4A298A4FEB00FF0338 /* showObserverVC.xib in Resources */,
 				AA164D4F298A5B6D00FF0338 /* showTimerVC.xib in Resources */,
 				AAB51CFD2951ABEF00938E01 /* CCellProblemManagerItem.xib in Resources */,
@@ -1424,6 +1509,7 @@
 				AA164D1C29876C8000FF0338 /* RadarAnimationVC.xib in Resources */,
 				AA164D63298A66C000FF0338 /* BasicLayoutVC.xib in Resources */,
 				AAC5773C291B945C00E89FAE /* showImage.png in Resources */,
+				AAF8A0E7298B917700539DE8 /* TwoNumSumVC.xib in Resources */,
 				AA8E0E242938D66C006D154A /* LottieVC.xib in Resources */,
 				AABA2E14291270FB00B84F85 /* binaryRedBlackTreeVC.xib in Resources */,
 				AADF7F93294D70EE00886828 /* NumFourVC.xib in Resources */,
@@ -1434,9 +1520,11 @@
 				AA82522F294096AA0051A36D /* FullTextShowVC.xib in Resources */,
 				AA164D242988ED7700FF0338 /* WhereUseVC.xib in Resources */,
 				AA3BF09C28A5002B00B478E6 /* Main.storyboard in Resources */,
+				AAF8A0F0298BA6B000539DE8 /* showBindVC.xib in Resources */,
 				AAC57745291C9C7900E89FAE /* normalMaxVC.xib in Resources */,
 				AA164D5E298A668900FF0338 /* BasicSystemFucVC.xib in Resources */,
 				AA164D40298A186700FF0338 /* TCellRxBaseListItem.xib in Resources */,
+				AA164D6C298B499400FF0338 /* MutatingShowVC.xib in Resources */,
 				AAB08A14291CE50200E1C93A /* topAreaPageVC.xib in Resources */,
 				AAB70B3D292E1C68000B70E5 /* DiyCameraVC.xib in Resources */,
 				AAC57749291C9D4B00E89FAE /* headAndMorePage.xib in Resources */,
@@ -1448,10 +1536,12 @@
 				AA164D2E2989166A00FF0338 /* WaveShowVC.xib in Resources */,
 				AA825235294099A50051A36D /* full.json in Resources */,
 				AAB08A23291DDE9200E1C93A /* otherMedia.xcassets in Resources */,
+				AAF8A0EB298B95CD00539DE8 /* halfFindVC.xib in Resources */,
 				AAB08A18291CEE8200E1C93A /* chooseConbinVC.xib in Resources */,
 				AADF7F98294D74FF00886828 /* LXBlueToothVC.xib in Resources */,
 				AA8D192B29387F600004FEC4 /* ImageBeautifyVC.xib in Resources */,
 				AAB08A1D291CF33A00E1C93A /* viewChooseHead.xib in Resources */,
+				AAF8A0F5298C9FD100539DE8 /* showRxSubjectsVC.xib in Resources */,
 				AA164D1429875B2600FF0338 /* RainbowProgressVC.xib in Resources */,
 				AA837022298523490098041C /* subscriptFuncVC.xib in Resources */,
 				AADF7F8F294D70DB00886828 /* NumThreeVC.xib in Resources */,
@@ -1540,6 +1630,7 @@
 				AAB08A1B291CF32F00E1C93A /* viewChooseHead.swift in Sources */,
 				AABA2E1A2913597400B84F85 /* normalMarkVC.swift in Sources */,
 				AAD6CD6928E6E00100C20B58 /* weatherService.swift in Sources */,
+				AA164D71298B571300FF0338 /* focusAnimationVC.swift in Sources */,
 				AA164D3F298A186700FF0338 /* TCellRxBaseListItem.swift in Sources */,
 				AA928A932906960D00C9D93E /* BaseVC.swift in Sources */,
 				AA3BF09928A5002B00B478E6 /* ViewController.swift in Sources */,
@@ -1549,6 +1640,7 @@
 				AAA7D5AC296E659300E3050D /* ThreadUseVC.swift in Sources */,
 				AA8D193629387FA40004FEC4 /* UIImage+GGSDK.m in Sources */,
 				AABA2E0B291246EE00B84F85 /* binaryTreeNoteVC.swift in Sources */,
+				AAF8A0F4298C9FD100539DE8 /* showRxSubjectsVC.swift in Sources */,
 				AAB70B63292E2434000B70E5 /* CameraContrlView.swift in Sources */,
 				AA8D192A29387F600004FEC4 /* ImageBeautifyVC.swift in Sources */,
 				AAC57755291CDFF100E89FAE /* UITableViewExt.swift in Sources */,
@@ -1577,6 +1669,7 @@
 				AA164D35298A019300FF0338 /* RxSwiftTestListVC.swift in Sources */,
 				AA164D232988ED7700FF0338 /* WhereUseVC.swift in Sources */,
 				AAC57748291C9D4B00E89FAE /* headAndMorePage.swift in Sources */,
+				AAF8A0E6298B917700539DE8 /* TwoNumSumVC.swift in Sources */,
 				AA164D4E298A5B6D00FF0338 /* showTimerVC.swift in Sources */,
 				AAD6CD6C28E6E7CB00C20B58 /* weatherGetVC.swift in Sources */,
 				AAB70B56292E1CF9000B70E5 /* Timer+Extension(wm).swift in Sources */,
@@ -1586,6 +1679,7 @@
 				AAD6CD6528E6DB7D00C20B58 /* Response+Rx.swift in Sources */,
 				AA825206293DD58C0051A36D /* NewImageCropVC.swift in Sources */,
 				AAB70B55292E1CF9000B70E5 /* UIView+Extension(WM).swift in Sources */,
+				AAF8A0EA298B95CD00539DE8 /* halfFindVC.swift in Sources */,
 				AAA7D5A8296D3B1400E3050D /* LXDevice.swift in Sources */,
 				AAB51DB829652DB000938E01 /* showMathLabelVC.swift in Sources */,
 				AACAEDC228AA6D590078045F /* ApiConfig.swift in Sources */,
@@ -1621,6 +1715,7 @@
 				AA8E0E232938D66C006D154A /* LottieVC.swift in Sources */,
 				AA928A962906962900C9D93E /* HomePageVC.swift in Sources */,
 				AACAEDC628AA79BB0078045F /* HomeApiConfig.swift in Sources */,
+				AA164D6B298B499400FF0338 /* MutatingShowVC.swift in Sources */,
 				AA164D1F29876CC000FF0338 /* ViewRadar.swift in Sources */,
 				AAB70B54292E1CF9000B70E5 /* WMVideoTools.swift in Sources */,
 				AAAC7D25297636CD003949D1 /* YYCacheUseVC.swift in Sources */,
@@ -1634,6 +1729,7 @@
 				AA825217293F34940051A36D /* MBHud.swift in Sources */,
 				AADF7F75294C7BD600886828 /* ByteExchangeVC.swift in Sources */,
 				AA164D49298A4FEB00FF0338 /* showObserverVC.swift in Sources */,
+				AAF8A0EF298BA6B000539DE8 /* showBindVC.swift in Sources */,
 				AAB70B53292E1CF9000B70E5 /* WMCameraFileTools.swift in Sources */,
 				AA164D1729875B3900FF0338 /* RainbowProgress.swift in Sources */,
 				AA8370302986657D0098041C /* ScratchMask.swift in Sources */,

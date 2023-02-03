@@ -25,6 +25,7 @@ class NumFourVC: BaseListVC {
         listDataInsert(keyWork: "组件-彩虹进度条", content: RainbowProgressVC())
         listDataInsert(keyWork: "组件-水波纹", content: RadarAnimationVC())
         listDataInsert(keyWork: "组件-波浪", content: WaveShowVC())
+        listDataInsert(keyWork: "动画（聚焦）", content: focusAnimationVC())
     }
 
 }

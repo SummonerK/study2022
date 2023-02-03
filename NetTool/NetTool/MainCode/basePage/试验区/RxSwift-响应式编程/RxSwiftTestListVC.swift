@@ -19,5 +19,7 @@ class RxSwiftTestListVC: BaseListVC {
         listDataInsert(keyWork: "RxSwift-Demo", content: showRxBaseVC())
         listDataInsert(keyWork: "RxSwift-订阅", content: showRxBaseSubscribeVC())
         listDataInsert(keyWork: "RxSwift-观察者", content: showObserverVC())
+        listDataInsert(keyWork: "RxSwift-绑定属性", content: showBindVC())
+        listDataInsert(keyWork: "RxSwift-Subjects", content: showRxSubjectsVC())
     }
 }

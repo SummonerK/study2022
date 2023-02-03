@@ -18,6 +18,8 @@ class basicAndAlgorithmVC: BaseListVC {
     override func setListData() -> Void {
         listDataInsert(keyWork: "算法（）", content: exampleVC())
         listDataInsert(keyWork: "算法（二叉树）", content: binaryTreeNoteVC())
+        listDataInsert(keyWork: "算法（两数之和）", content: TwoNumSumVC())
+        listDataInsert(keyWork: "算法（二分查找）", content: halfFindVC())
     }
     
 }

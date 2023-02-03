@@ -14,6 +14,9 @@ let baseTextColor66 = UIColor.hexStringColor(hexString: "666666")
 let baseTextColor99 = UIColor.hexStringColor(hexString: "999999")
 let baseToastBGColor = UIColor.hexStringColor(hexString: "000000",alpha: 0.4)
 
+let baseIronColor = UIColor.hexStringColor(hexString: "580203")
+let baseCoffeeColor = UIColor.hexStringColor(hexString: "3A3925")
+
 class BaseNaviController: UINavigationController {
 
     override func viewDidLoad() {

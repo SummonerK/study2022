@@ -16,9 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KEEP CODING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2P-VK-pYx">
-                                <rect key="frame" x="130.5" y="791" width="153.5" height="31"/>
-                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="22"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchBG" translatesAutoresizingMaskIntoConstraints="NO" id="nFy-L0-WcY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热爱生活" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2P-VK-pYx">
+                                <rect key="frame" x="0.0" y="782.5" width="414" height="39.5"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Thin" family="PingFang SC" pointSize="28"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,8 +29,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r2P-VK-pYx" secondAttribute="trailing" id="2M3-G2-QSc"/>
+                            <constraint firstAttribute="bottom" secondItem="nFy-L0-WcY" secondAttribute="bottom" id="9el-b7-Cfy"/>
+                            <constraint firstAttribute="trailing" secondItem="nFy-L0-WcY" secondAttribute="trailing" id="Dte-vB-cDy"/>
+                            <constraint firstItem="nFy-L0-WcY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="HJZ-2x-VQ7"/>
+                            <constraint firstItem="nFy-L0-WcY" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Wyw-tv-UB6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r2P-VK-pYx" secondAttribute="bottom" constant="40" id="bjb-xl-NBI"/>
-                            <constraint firstItem="r2P-VK-pYx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qed-nW-DKy"/>
+                            <constraint firstItem="r2P-VK-pYx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m0D-8S-spr"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,4 +44,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchBG" width="512" height="1117.5"/>
+    </resources>
 </document>

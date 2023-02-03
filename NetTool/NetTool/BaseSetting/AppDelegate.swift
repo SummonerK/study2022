@@ -33,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = MainTabBarC()
         window?.makeKeyAndVisible()
         
+        sleep(2)
         return true
     }
 
