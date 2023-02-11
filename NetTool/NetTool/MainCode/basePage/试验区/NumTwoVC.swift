@@ -20,6 +20,8 @@ class NumTwoVC: BaseListVC {
     override func setListData() -> Void {
         listDataInsert(keyWork: "BlueTooth 蓝牙", content: LXBlueToothVC())
         listDataInsert(keyWork: "RxSwift-响应式编程", content: RxSwiftTestListVC())
+        listDataInsert(keyWork: "RxSwift-UI", content: RxSwiftTestUIListVC())
+        listDataInsert(keyWork: "RxSwift-交互", content: RxSwiftTextBindListVC())
     }
 }
 

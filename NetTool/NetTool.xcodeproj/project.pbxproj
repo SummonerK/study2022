@@ -71,6 +71,19 @@
 		AA8370362986668B0098041C /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8370342986668B0098041C /* coupon.png */; };
 		AA83703B29866AB30098041C /* DataTransVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83703929866AB30098041C /* DataTransVC.swift */; };
 		AA83703C29866AB30098041C /* DataTransVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA83703A29866AB30098041C /* DataTransVC.xib */; };
+		AA86612029923E9E00A1F245 /* showRxcontrolPropertyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86611E29923E9E00A1F245 /* showRxcontrolPropertyVC.swift */; };
+		AA86612129923E9E00A1F245 /* showRxcontrolPropertyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86611F29923E9E00A1F245 /* showRxcontrolPropertyVC.xib */; };
+		AA86612B2995DCA200A1F245 /* RxShowSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8661292995DCA200A1F245 /* RxShowSwitchVC.swift */; };
+		AA86612C2995DCA200A1F245 /* RxShowSwitchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86612A2995DCA200A1F245 /* RxShowSwitchVC.xib */; };
+		AA86612F2995DFBF00A1F245 /* RxSwiftTestUIListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86612D2995DFBF00A1F245 /* RxSwiftTestUIListVC.swift */; };
+		AA8661302995DFBF00A1F245 /* RxSwiftTestUIListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86612E2995DFBF00A1F245 /* RxSwiftTestUIListVC.xib */; };
+		AA866134299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA866132299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.swift */; };
+		AA866135299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA866133299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.xib */; };
+		AA86613929961DEF00A1F245 /* RxShowStepperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86613729961DEF00A1F245 /* RxShowStepperVC.swift */; };
+		AA86613A29961DEF00A1F245 /* RxShowStepperVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86613829961DEF00A1F245 /* RxShowStepperVC.xib */; };
+		AA8661402996228300A1F245 /* RxshowBothWayBindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86613E2996228300A1F245 /* RxshowBothWayBindVC.swift */; };
+		AA8661412996228300A1F245 /* RxshowBothWayBindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86613F2996228300A1F245 /* RxshowBothWayBindVC.xib */; };
+		AA866143299622DD00A1F245 /* RxSwiftTextBindListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA866142299622DD00A1F245 /* RxSwiftTextBindListVC.swift */; };
 		AA8D192A29387F600004FEC4 /* ImageBeautifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D192829387F600004FEC4 /* ImageBeautifyVC.swift */; };
 		AA8D192B29387F600004FEC4 /* ImageBeautifyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8D192929387F600004FEC4 /* ImageBeautifyVC.xib */; };
 		AA8D193529387FA40004FEC4 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D192F29387FA40004FEC4 /* GPUImageBeautifyFilter.m */; };
@@ -170,6 +183,11 @@
 		AACAEDC228AA6D590078045F /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDC128AA6D590078045F /* ApiConfig.swift */; };
 		AACAEDC428AA78D40078045F /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDC328AA78D40078045F /* HomeAPI.swift */; };
 		AACAEDC628AA79BB0078045F /* HomeApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACAEDC528AA79BB0078045F /* HomeApiConfig.swift */; };
+		AACDB5DD2990A3D600B26654 /* showRxTransMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDB5DB2990A3D600B26654 /* showRxTransMapVC.swift */; };
+		AACDB5DE2990A3D600B26654 /* showRxTransMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDB5DC2990A3D600B26654 /* showRxTransMapVC.xib */; };
+		AACDB5E22990F26700B26654 /* showRxFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDB5E02990F26700B26654 /* showRxFilterVC.swift */; };
+		AACDB5E32990F26700B26654 /* showRxFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDB5E12990F26700B26654 /* showRxFilterVC.xib */; };
+		AACDB5E829910BD300B26654 /* showRxConditionalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDB5E729910BD300B26654 /* showRxConditionalVC.swift */; };
 		AACFAB532900F7390098FA0E /* swiftBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACFAB522900F7390098FA0E /* swiftBaseTest.swift */; };
 		AAD6CD5F28E6D64500C20B58 /* NetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD5E28E6D64500C20B58 /* NetApi.swift */; };
 		AAD6CD6128E6D87400C20B58 /* RootProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD6028E6D87400C20B58 /* RootProvider.swift */; };
@@ -304,6 +322,19 @@
 		AA8370342986668B0098041C /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
 		AA83703929866AB30098041C /* DataTransVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransVC.swift; sourceTree = "<group>"; };
 		AA83703A29866AB30098041C /* DataTransVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTransVC.xib; sourceTree = "<group>"; };
+		AA86611E29923E9E00A1F245 /* showRxcontrolPropertyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showRxcontrolPropertyVC.swift; sourceTree = "<group>"; };
+		AA86611F29923E9E00A1F245 /* showRxcontrolPropertyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = showRxcontrolPropertyVC.xib; sourceTree = "<group>"; };
+		AA8661292995DCA200A1F245 /* RxShowSwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxShowSwitchVC.swift; sourceTree = "<group>"; };
+		AA86612A2995DCA200A1F245 /* RxShowSwitchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxShowSwitchVC.xib; sourceTree = "<group>"; };
+		AA86612D2995DFBF00A1F245 /* RxSwiftTestUIListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTestUIListVC.swift; sourceTree = "<group>"; };
+		AA86612E2995DFBF00A1F245 /* RxSwiftTestUIListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftTestUIListVC.xib; sourceTree = "<group>"; };
+		AA866132299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxShowUIActivityIndicatorViewVC.swift; sourceTree = "<group>"; };
+		AA866133299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxShowUIActivityIndicatorViewVC.xib; sourceTree = "<group>"; };
+		AA86613729961DEF00A1F245 /* RxShowStepperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxShowStepperVC.swift; sourceTree = "<group>"; };
+		AA86613829961DEF00A1F245 /* RxShowStepperVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxShowStepperVC.xib; sourceTree = "<group>"; };
+		AA86613E2996228300A1F245 /* RxshowBothWayBindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxshowBothWayBindVC.swift; sourceTree = "<group>"; };
+		AA86613F2996228300A1F245 /* RxshowBothWayBindVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxshowBothWayBindVC.xib; sourceTree = "<group>"; };
+		AA866142299622DD00A1F245 /* RxSwiftTextBindListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTextBindListVC.swift; sourceTree = "<group>"; };
 		AA8D192829387F600004FEC4 /* ImageBeautifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBeautifyVC.swift; sourceTree = "<group>"; };
 		AA8D192929387F600004FEC4 /* ImageBeautifyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageBeautifyVC.xib; sourceTree = "<group>"; };
 		AA8D192F29387FA40004FEC4 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
@@ -407,6 +438,12 @@
 		AACAEDC128AA6D590078045F /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
 		AACAEDC328AA78D40078045F /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
 		AACAEDC528AA79BB0078045F /* HomeApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiConfig.swift; sourceTree = "<group>"; };
+		AACDB5DB2990A3D600B26654 /* showRxTransMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showRxTransMapVC.swift; sourceTree = "<group>"; };
+		AACDB5DC2990A3D600B26654 /* showRxTransMapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = showRxTransMapVC.xib; sourceTree = "<group>"; };
+		AACDB5E02990F26700B26654 /* showRxFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showRxFilterVC.swift; sourceTree = "<group>"; };
+		AACDB5E12990F26700B26654 /* showRxFilterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = showRxFilterVC.xib; sourceTree = "<group>"; };
+		AACDB5E52990F78D00B26654 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AACDB5E729910BD300B26654 /* showRxConditionalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showRxConditionalVC.swift; sourceTree = "<group>"; };
 		AACFAB522900F7390098FA0E /* swiftBaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftBaseTest.swift; sourceTree = "<group>"; };
 		AAD6CD5E28E6D64500C20B58 /* NetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetApi.swift; sourceTree = "<group>"; };
 		AAD6CD6028E6D87400C20B58 /* RootProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootProvider.swift; sourceTree = "<group>"; };
@@ -551,6 +588,10 @@
 		AA164D32298A015700FF0338 /* RxSwift-响应式编程 */ = {
 			isa = PBXGroup;
 			children = (
+				AA86611D29923E4100A1F245 /* Rx-特征序列ControlProperty */,
+				AACDB5E629910ACA00B26654 /* RxSwift-8-条件和布尔操作 */,
+				AACDB5DF2990F23A00B26654 /* RxSwift-7-过滤操作 */,
+				AACDB5DA2990A3A500B26654 /* RxSwift-6-变换操作 */,
 				AAF8A0F1298C9FA100539DE8 /* RxSwift-5-Subjects */,
 				AAF8A0EC298BA67000539DE8 /* RxSwift-4-绑定 */,
 				AA164D46298A4F9200FF0338 /* RxSwift-3-观察者 */,
@@ -736,6 +777,7 @@
 		AA3BF0A928A5012B00B478E6 /* MainCode */ = {
 			isa = PBXGroup;
 			children = (
+				AACDB5E42990F74B00B26654 /* 一些说明 */,
 				AA928A902906960D00C9D93E /* basePage */,
 				AA928A8D290635C200C9D93E /* BaseModule */,
 				AA5FEF332903F0BA00C08C13 /* OtherTest */,
@@ -881,6 +923,79 @@
 				AA83703A29866AB30098041C /* DataTransVC.xib */,
 			);
 			path = "Data转（bytes数组）";
+			sourceTree = "<group>";
+		};
+		AA86611D29923E4100A1F245 /* Rx-特征序列ControlProperty */ = {
+			isa = PBXGroup;
+			children = (
+				AA86611E29923E9E00A1F245 /* showRxcontrolPropertyVC.swift */,
+				AA86611F29923E9E00A1F245 /* showRxcontrolPropertyVC.xib */,
+			);
+			path = "Rx-特征序列ControlProperty";
+			sourceTree = "<group>";
+		};
+		AA8661272995DC5000A1F245 /* RxSwift-UI */ = {
+			isa = PBXGroup;
+			children = (
+				AA86613629961DC700A1F245 /* RxUI-Stepper */,
+				AA8661312996183800A1F245 /* RxUI-UIActivityIndicatorView */,
+				AA8661282995DC5F00A1F245 /* RxUI-UISwitch */,
+				AA86612D2995DFBF00A1F245 /* RxSwiftTestUIListVC.swift */,
+				AA86612E2995DFBF00A1F245 /* RxSwiftTestUIListVC.xib */,
+			);
+			path = "RxSwift-UI";
+			sourceTree = "<group>";
+		};
+		AA8661282995DC5F00A1F245 /* RxUI-UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				AA8661292995DCA200A1F245 /* RxShowSwitchVC.swift */,
+				AA86612A2995DCA200A1F245 /* RxShowSwitchVC.xib */,
+			);
+			path = "RxUI-UISwitch";
+			sourceTree = "<group>";
+		};
+		AA8661312996183800A1F245 /* RxUI-UIActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AA866132299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.swift */,
+				AA866133299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.xib */,
+			);
+			path = "RxUI-UIActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		AA86613629961DC700A1F245 /* RxUI-Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				AA86613729961DEF00A1F245 /* RxShowStepperVC.swift */,
+				AA86613829961DEF00A1F245 /* RxShowStepperVC.xib */,
+			);
+			path = "RxUI-Stepper";
+			sourceTree = "<group>";
+		};
+		AA86613B299621D800A1F245 /* RxSwift-交互 */ = {
+			isa = PBXGroup;
+			children = (
+				AA86613D299621F300A1F245 /* RxVM-双向绑定 */,
+				AA866142299622DD00A1F245 /* RxSwiftTextBindListVC.swift */,
+			);
+			path = "RxSwift-交互";
+			sourceTree = "<group>";
+		};
+		AA86613C299621E700A1F245 /* RxSwift-应用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RxSwift-应用";
+			sourceTree = "<group>";
+		};
+		AA86613D299621F300A1F245 /* RxVM-双向绑定 */ = {
+			isa = PBXGroup;
+			children = (
+				AA86613E2996228300A1F245 /* RxshowBothWayBindVC.swift */,
+				AA86613F2996228300A1F245 /* RxshowBothWayBindVC.xib */,
+			);
+			path = "RxVM-双向绑定";
 			sourceTree = "<group>";
 		};
 		AA8D192729387EF60004FEC4 /* 图像处理 */ = {
@@ -1237,6 +1352,40 @@
 			path = NetAPIs;
 			sourceTree = "<group>";
 		};
+		AACDB5DA2990A3A500B26654 /* RxSwift-6-变换操作 */ = {
+			isa = PBXGroup;
+			children = (
+				AACDB5DB2990A3D600B26654 /* showRxTransMapVC.swift */,
+				AACDB5DC2990A3D600B26654 /* showRxTransMapVC.xib */,
+			);
+			path = "RxSwift-6-变换操作";
+			sourceTree = "<group>";
+		};
+		AACDB5DF2990F23A00B26654 /* RxSwift-7-过滤操作 */ = {
+			isa = PBXGroup;
+			children = (
+				AACDB5E02990F26700B26654 /* showRxFilterVC.swift */,
+				AACDB5E12990F26700B26654 /* showRxFilterVC.xib */,
+			);
+			path = "RxSwift-7-过滤操作";
+			sourceTree = "<group>";
+		};
+		AACDB5E42990F74B00B26654 /* 一些说明 */ = {
+			isa = PBXGroup;
+			children = (
+				AACDB5E52990F78D00B26654 /* README.md */,
+			);
+			path = "一些说明";
+			sourceTree = "<group>";
+		};
+		AACDB5E629910ACA00B26654 /* RxSwift-8-条件和布尔操作 */ = {
+			isa = PBXGroup;
+			children = (
+				AACDB5E729910BD300B26654 /* showRxConditionalVC.swift */,
+			);
+			path = "RxSwift-8-条件和布尔操作";
+			sourceTree = "<group>";
+		};
 		AAD6CD5928E6D55300C20B58 /* NetWheel */ = {
 			isa = PBXGroup;
 			children = (
@@ -1295,6 +1444,9 @@
 		AADF7F7D294D6F7300886828 /* 试验区 */ = {
 			isa = PBXGroup;
 			children = (
+				AA86613C299621E700A1F245 /* RxSwift-应用 */,
+				AA86613B299621D800A1F245 /* RxSwift-交互 */,
+				AA8661272995DC5000A1F245 /* RxSwift-UI */,
 				AA164D32298A015700FF0338 /* RxSwift-响应式编程 */,
 				AADF7F94294D74A700886828 /* BlueTooth-蓝牙 */,
 				AADF7F85294D704D00886828 /* NumTwoVC.swift */,
@@ -1495,6 +1647,7 @@
 				AA164D4A298A4FEB00FF0338 /* showObserverVC.xib in Resources */,
 				AA164D4F298A5B6D00FF0338 /* showTimerVC.xib in Resources */,
 				AAB51CFD2951ABEF00938E01 /* CCellProblemManagerItem.xib in Resources */,
+				AA86613A29961DEF00A1F245 /* RxShowStepperVC.xib in Resources */,
 				AA3BF09E28A5002C00B478E6 /* Assets.xcassets in Resources */,
 				AA928AA52909320C00C9D93E /* OOProtocolVC.xib in Resources */,
 				AAB08A21291CFC5F00E1C93A /* TCellChooseCombin.xib in Resources */,
@@ -1510,6 +1663,7 @@
 				AA164D63298A66C000FF0338 /* BasicLayoutVC.xib in Resources */,
 				AAC5773C291B945C00E89FAE /* showImage.png in Resources */,
 				AAF8A0E7298B917700539DE8 /* TwoNumSumVC.xib in Resources */,
+				AA86612C2995DCA200A1F245 /* RxShowSwitchVC.xib in Resources */,
 				AA8E0E242938D66C006D154A /* LottieVC.xib in Resources */,
 				AABA2E14291270FB00B84F85 /* binaryRedBlackTreeVC.xib in Resources */,
 				AADF7F93294D70EE00886828 /* NumFourVC.xib in Resources */,
@@ -1517,7 +1671,9 @@
 				AAC5774E291C9E1B00E89FAE /* listPagesVC.xib in Resources */,
 				AAD6CD6D28E6E7CB00C20B58 /* weatherGetVC.xib in Resources */,
 				AAB70B61292E1D2B000B70E5 /* showCameraListVC.xib in Resources */,
+				AA86612129923E9E00A1F245 /* showRxcontrolPropertyVC.xib in Resources */,
 				AA82522F294096AA0051A36D /* FullTextShowVC.xib in Resources */,
+				AA866135299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.xib in Resources */,
 				AA164D242988ED7700FF0338 /* WhereUseVC.xib in Resources */,
 				AA3BF09C28A5002B00B478E6 /* Main.storyboard in Resources */,
 				AAF8A0F0298BA6B000539DE8 /* showBindVC.xib in Resources */,
@@ -1528,6 +1684,7 @@
 				AAB08A14291CE50200E1C93A /* topAreaPageVC.xib in Resources */,
 				AAB70B3D292E1C68000B70E5 /* DiyCameraVC.xib in Resources */,
 				AAC57749291C9D4B00E89FAE /* headAndMorePage.xib in Resources */,
+				AA8661412996228300A1F245 /* RxshowBothWayBindVC.xib in Resources */,
 				AAB51DB929652DB000938E01 /* showMathLabelVC.xib in Resources */,
 				AA8370352986668B0098041C /* mask.png in Resources */,
 				AAB70BAB292F67D5000B70E5 /* showPopWindowVC.xib in Resources */,
@@ -1540,13 +1697,16 @@
 				AAB08A18291CEE8200E1C93A /* chooseConbinVC.xib in Resources */,
 				AADF7F98294D74FF00886828 /* LXBlueToothVC.xib in Resources */,
 				AA8D192B29387F600004FEC4 /* ImageBeautifyVC.xib in Resources */,
+				AA8661302995DFBF00A1F245 /* RxSwiftTestUIListVC.xib in Resources */,
 				AAB08A1D291CF33A00E1C93A /* viewChooseHead.xib in Resources */,
 				AAF8A0F5298C9FD100539DE8 /* showRxSubjectsVC.xib in Resources */,
+				AACDB5E32990F26700B26654 /* showRxFilterVC.xib in Resources */,
 				AA164D1429875B2600FF0338 /* RainbowProgressVC.xib in Resources */,
 				AA837022298523490098041C /* subscriptFuncVC.xib in Resources */,
 				AADF7F8F294D70DB00886828 /* NumThreeVC.xib in Resources */,
 				AAB51D4529598F3A00938E01 /* client.cer in Resources */,
 				AAB70B4F292E1CF9000B70E5 /* WMCameraResource.bundle in Resources */,
+				AACDB5DE2990A3D600B26654 /* showRxTransMapVC.xib in Resources */,
 				AABA2E0C291246EE00B84F85 /* binaryTreeNoteVC.xib in Resources */,
 				AA825207293DD58C0051A36D /* NewImageCropVC.xib in Resources */,
 				AAB51CF82951ABA000938E01 /* ManagerCollectionVC.xib in Resources */,
@@ -1637,11 +1797,14 @@
 				AAB70B59292E1CF9000B70E5 /* WMVideoExporter.swift in Sources */,
 				AAB70B69292E2D9A000B70E5 /* UIView+ext(lk).swift in Sources */,
 				AA3BF09528A5002B00B478E6 /* AppDelegate.swift in Sources */,
+				AACDB5E22990F26700B26654 /* showRxFilterVC.swift in Sources */,
 				AAA7D5AC296E659300E3050D /* ThreadUseVC.swift in Sources */,
 				AA8D193629387FA40004FEC4 /* UIImage+GGSDK.m in Sources */,
 				AABA2E0B291246EE00B84F85 /* binaryTreeNoteVC.swift in Sources */,
 				AAF8A0F4298C9FD100539DE8 /* showRxSubjectsVC.swift in Sources */,
 				AAB70B63292E2434000B70E5 /* CameraContrlView.swift in Sources */,
+				AA86613929961DEF00A1F245 /* RxShowStepperVC.swift in Sources */,
+				AACDB5DD2990A3D600B26654 /* showRxTransMapVC.swift in Sources */,
 				AA8D192A29387F600004FEC4 /* ImageBeautifyVC.swift in Sources */,
 				AAC57755291CDFF100E89FAE /* UITableViewExt.swift in Sources */,
 				AAD6CD6328E6DB3900C20B58 /* ResponseCommon.swift in Sources */,
@@ -1667,9 +1830,12 @@
 				AACAEDC428AA78D40078045F /* HomeAPI.swift in Sources */,
 				AAB70B5A292E1CF9000B70E5 /* WMCameraControl.swift in Sources */,
 				AA164D35298A019300FF0338 /* RxSwiftTestListVC.swift in Sources */,
+				AA866143299622DD00A1F245 /* RxSwiftTextBindListVC.swift in Sources */,
 				AA164D232988ED7700FF0338 /* WhereUseVC.swift in Sources */,
 				AAC57748291C9D4B00E89FAE /* headAndMorePage.swift in Sources */,
+				AA866134299618A500A1F245 /* RxShowUIActivityIndicatorViewVC.swift in Sources */,
 				AAF8A0E6298B917700539DE8 /* TwoNumSumVC.swift in Sources */,
+				AA8661402996228300A1F245 /* RxshowBothWayBindVC.swift in Sources */,
 				AA164D4E298A5B6D00FF0338 /* showTimerVC.swift in Sources */,
 				AAD6CD6C28E6E7CB00C20B58 /* weatherGetVC.swift in Sources */,
 				AAB70B56292E1CF9000B70E5 /* Timer+Extension(wm).swift in Sources */,
@@ -1686,6 +1852,7 @@
 				AAA7D5AF296E660C00E3050D /* BaseListVC.swift in Sources */,
 				AAB70B5D292E1CF9000B70E5 /* WMImageRotate.swift in Sources */,
 				AADD012229480EB8000E6AE8 /* UIWindow+ext(lf).swift in Sources */,
+				AA86612F2995DFBF00A1F245 /* RxSwiftTestUIListVC.swift in Sources */,
 				AAD6CD6128E6D87400C20B58 /* RootProvider.swift in Sources */,
 				AAB70B31292C99D7000B70E5 /* imageExchangeVC.swift in Sources */,
 				AA164D5D298A668900FF0338 /* BasicSystemFucVC.swift in Sources */,
@@ -1717,14 +1884,17 @@
 				AACAEDC628AA79BB0078045F /* HomeApiConfig.swift in Sources */,
 				AA164D6B298B499400FF0338 /* MutatingShowVC.swift in Sources */,
 				AA164D1F29876CC000FF0338 /* ViewRadar.swift in Sources */,
+				AACDB5E829910BD300B26654 /* showRxConditionalVC.swift in Sources */,
 				AAB70B54292E1CF9000B70E5 /* WMVideoTools.swift in Sources */,
 				AAAC7D25297636CD003949D1 /* YYCacheUseVC.swift in Sources */,
 				AADF7F7B294D6F2200886828 /* MainTabBarC.swift in Sources */,
 				AABA2E1029126D7F00B84F85 /* comConfig.swift in Sources */,
 				AAC57739291B937D00E89FAE /* sysFuncVC.swift in Sources */,
 				AA5FEF2D29028AA100C08C13 /* ProviderSetting.swift in Sources */,
+				AA86612029923E9E00A1F245 /* showRxcontrolPropertyVC.swift in Sources */,
 				AA164D312989168B00FF0338 /* WaveView.swift in Sources */,
 				AAB70B51292E1CF9000B70E5 /* WMVideoEditor.swift in Sources */,
+				AA86612B2995DCA200A1F245 /* RxShowSwitchVC.swift in Sources */,
 				AAB51D002951ACF000938E01 /* CHeaderViewManager.swift in Sources */,
 				AA825217293F34940051A36D /* MBHud.swift in Sources */,
 				AADF7F75294C7BD600886828 /* ByteExchangeVC.swift in Sources */,
